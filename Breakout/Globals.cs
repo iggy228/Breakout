@@ -20,5 +20,10 @@ namespace Breakout
         public static int PADDLE_START_Y = 470;
 
         public static int score = 0;
+
+        public static Scoreboard scoreboard;
+
+        public static int BRICKS_ROW_COUNT = 5;
+        public static int BRICKS_COLUMN_COUNT = 8;
     }
 }
